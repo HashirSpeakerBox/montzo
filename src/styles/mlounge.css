@@ -1,0 +1,175 @@
+.bgimg {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  height: 100%;
+}
+.bgimg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+
+.text1 p {
+  margin-top: 41px;
+  padding: 41px 83px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.centerlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerlogo img {
+  padding: 102px 510px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  position: absolute;
+  z-index: -1;
+  right: 62px;
+  top: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  position: absolute;
+  z-index: -1;
+  left: 62px;
+  top: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .menu p {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 0;
+  color: #ffff;
+  padding: 0px 100px;
+} */
+
+.text2 {
+  padding: 30px 83px;
+  background: rgba(0, 176, 189, 0.05);
+}
+
+.text2 p {
+  text-align: center;
+  leading-trim: both;
+  font-size: 18px;
+}
+
+.location {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  margin-bottom: 30px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 21px;
+  margin-right: 124px;
+}
+.icons img {
+  height: 18px;
+  width: 18px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-direction: column;
+}
+
+.footer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footer p {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: -20px;
+}
+
+.footer img {
+}
+
+@media (max-width: 640px) {
+  .location {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-left: 36px;
+    flex-direction: column;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    margin-right: 0px;
+  }
+  .icons img {
+    height: 18px;
+    width: 18px;
+  }
+  .menu p {
+    display: none;
+  }
+  .menu {
+    right: 62px;
+    top: 35px;
+  }
+  .text1 p {
+    margin-top: 0px;
+    padding: 41px 36px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .footer img {
+    width: 72.4px;
+    height: 59.3px;
+    object-fit: contain;
+  }
+}
